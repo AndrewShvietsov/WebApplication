@@ -2,21 +2,21 @@ package com.example.workingcondition.company;
 
 public class Preference {
 
-    public String preference;
-    public int time;
+    public String preferenceName;
+    public int deltaTime;
     public boolean isWorkingHome;
 
     private Preference(String preference, int time, boolean isWorkingHome) {
-        this.preference = preference;
-        this.time = time;
+        this.preferenceName = preference;
+        this.deltaTime = time;
         this.isWorkingHome = isWorkingHome;
     }
 
     @Override
     public String toString() {
         return "Preference{" +
-                "preference='" + preference + '\'' +
-                ", time=" + time +
+                "preference='" + preferenceName + '\'' +
+                ", time=" + deltaTime +
                 ", isWorkingHome=" + isWorkingHome +
                 '}';
     }

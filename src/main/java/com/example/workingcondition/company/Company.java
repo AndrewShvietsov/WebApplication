@@ -10,6 +10,9 @@ public class Company {
     private final List<Department> departments = new ArrayList<>();
     private final static int START_WORKING = 9;
     private final static int END_WORKING = 18;
+    public final static double KPD_HOME = 1.1;
+    public final static double KPD_WORK_POSITIVE = 1.2;
+    public final static double KPD_WORK_NEGATIVE = 0.8;
 
 
     public Company(String name) {
@@ -36,6 +39,8 @@ public class Company {
         return END_WORKING;
     }
 
+
+
     @Override
     public String toString() {
         return "Company{" +
@@ -61,6 +66,7 @@ public class Company {
 
     public double calculateEfficiency() {
         // TODO: 04.12.2021 сколько часов работы получается при нашем учете времени
+        return 0.0;
     }
 
 }
