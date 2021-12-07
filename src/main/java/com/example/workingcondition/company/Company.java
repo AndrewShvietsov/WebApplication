@@ -65,7 +65,7 @@ public class Company {
     }
 
     public double calculateEfficiency() {
-        // TODO: 04.12.2021 сколько часов работы получается при нашем учете времени
+
         return 0.0;
     }
 
